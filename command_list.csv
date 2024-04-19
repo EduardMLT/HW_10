@@ -1,0 +1,78 @@
+    1  git clone https://github.com/EduardMLT/HW_10
+    2  cd HW_10
+    3  git branch
+    4  git remote add origin https://github.com/eduardmlt
+    5  git remote -v
+    6  ls -a
+    7  ls -l
+    8  '/d/GoIt QA/блок 3/HW Git command/HW_10'
+    9  cd '/d/GoIt QA/блок 3/HW Git command/HW_10'
+   10  ді -ф
+   11  ls -a
+   12  touch text_ignore.txt
+   13  nano touch text_ignore.txt
+   14  cat touch text_ignore.txt
+   15   cat text_ignore.txt
+   16  ls -a
+   17  cat touch
+   18  rm touch 
+   19  ls -a
+   20  nano text_ignore.txt
+   21  nano .gitignore 
+   22  cat .gitignore 
+   23  git status
+   24  nano README.md 
+   25  cat README.md 
+   26  git status
+   27  git add  .  
+   28  git commit -m “додано text_ignore.txt і змінено - .gitignore і README.md”
+   29  git commit -m "додано text_ignore.txt і змінено - .gitignore і README.md"
+   30  git status
+   31  ls -a
+   32  cat README.md 
+   33  git push
+   34  touch main_test.txt
+   35  git add main_test.txt
+   36  git commit -m “Додаємо файл main_test.txt”
+   37  git commit -m "Додаємо файл main_test.txt"
+   38  git push 
+   39  ls -a
+   40  git branch develop
+   41  git checkout develop 
+   42  ls -a
+   43  touch develop_test.txt
+   44  ls -a
+   45  git checkout main
+   46  ls -a
+   47  git status
+   48  git checkout develop 
+   49  git status
+   50  git add develop_test.txt
+   51  git commit -m "Додано файл develop_test.txt"
+   52  git status
+   53  git checkout main
+   54  git status
+   55  ls -a
+   56  git checkout develop 
+   57  git status 
+   58  ls -a
+   59  h
+   60  history 
+   61  cat develop_test.txt
+   62  nano develop_test.txt
+   63  cat develop_test.txt
+   64  git add develop_test.txt
+   65  git commit -m “Внесено текст ...”
+   66  git commit -m "Внесено текст ..."
+   67  cat develop_test.txt 
+   68  git status
+   69  git checkout main
+   70  ls -a
+   71  git checkout develop 
+   72  ls -a
+   73  git log
+   74  git log
+   75  git checkout main
+   76  git merge develop
+   77  git log 
+   78  history > command_list.csv
